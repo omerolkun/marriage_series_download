@@ -43,7 +43,7 @@ def download_episode():
     ar1 = "youtube-dl --referer https://www.fox.com.tr/Evlilik-Hakkinda-Her-Sey/bolumler "
     command =  ar1 + source_link_for_download
     
-    #os.system(command)
+    os.system(command)
     current_path = variables()[1]
     home_path = variables()[2]
 
